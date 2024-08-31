@@ -1,15 +1,38 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="<%= BASE_URL %>linkicon.png">
+    
+    <!-- SEO Meta Tags -->
+    <title>Jungle - Explore the Wilderness</title>
+    <meta name="description" content="Discover the beauty of the jungle with our immersive experience. Explore the wild and learn about its inhabitants.">
+    <meta name="keywords" content="jungle, nature, wildlife, exploration, adventure">
+    <meta name="author" content="Your Name or Company">
+    
+    <!-- Open Graph Meta Tags (for social media sharing) -->
+    <meta property="og:title" content="Jungle - Explore the Wilderness">
+    <meta property="og:description" content="Discover the beauty of the jungle with our immersive experience. Explore the wild and learn about its inhabitants.">
+    <meta property="og:image" content="<%= BASE_URL %>linkicon.png">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jungle - Explore the Wilderness">
+    <meta name="twitter:description" content="Discover the beauty of the jungle with our immersive experience. Explore the wild and learn about its inhabitants.">
+    <meta name="twitter:image" content="<%= BASE_URL %>linkicon.png">
+
+    <!-- Title -->
+    <title>Jungle</title>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>We're sorry but Jungle doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
